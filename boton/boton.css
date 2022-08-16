@@ -1,0 +1,18 @@
+.original-bo {
+  position: fixed;
+  right: 70px;
+  bottom: 70px;
+}
+.bo-slak {
+  height: 64px;
+  width: 64px;
+}
+.bo-inc {
+  height: 64px;
+  width: 64px;
+}
+.bo-home {
+  height: 64px;
+  width: 64px;
+  margin-left: 20px;
+}

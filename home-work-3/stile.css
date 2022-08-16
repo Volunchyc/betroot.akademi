@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  display: flex;
+  font-family: Rubik;
+  font-size: 14px;
+  max-width: 1020px;
+}
+.data {
+  width: 36%;
+  padding: 40px 0 0 35px;
+  background: rgb(127, 124, 124);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: white;
+}
+.h {
+  font-size: 18px;
+  opacity: 0.5;
+  padding: 24px 0 8px;
+}
+.resume {
+  padding: 40px 0 0 18px;
+}
+.hed {
+  font-size: 24px;
+}
+.h2 {
+  opacity: 0.5;
+  padding-top: 12px;
+}
+.h3 {
+  opacity: 0.5;
+  padding-top: 24px;
+}
+.h4 {
+  padding-top: 12px;
+}
