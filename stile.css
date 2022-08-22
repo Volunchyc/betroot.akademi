@@ -21,6 +21,9 @@
   text-align: center;
   margin-left: 20px;
 }
+.button:hover{
+  background-color: blue;
+}
 body {
   background: url(./img/futuristic-robot-artificial-intelligence-revolutionary-ai-technology-concept.jpg) no-repeat center;
 }
