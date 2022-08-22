@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav {
+  text-align: center;
+  margin-top: 20px;
+}
+.nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+.nav a:hover {
+  color: blueviolet;
+}
+.botton {
+  margin-left: 60px;
+  padding: 5px;
+  background-color: yellow;
+  border-radius: 50px;
+  border: 1px solid blueviolet;
+}
+.video {
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.video-desc {
+  max-width: 600px;
+  margin-top: 10px;
+}
+.music {
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.footer {
+  text-align: center;
+  margin-top: 120px;
+  background-color: rgb(70, 62, 62);
+}
+.footer-list li {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.footer-list a {
+  text-decoration: none;
+  color: black;
+}
+.footer-list a:hover {
+  color: white;
+}

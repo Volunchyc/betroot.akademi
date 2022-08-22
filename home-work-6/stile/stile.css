@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Rubik:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h2,
+h3,
+p {
+  font-size: 22px;
+}
+.app {
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: Noto Sans;
+  color: white;
+}
+.container {
+  background-color: #3399cc;
+  border: 25px solid #2b81ac;
+}
+.content {
+  margin-top: 66px;
+  padding: 0 136px;
+}
+.h {
+  display: inline;
+}
+.img-h {
+  margin-left: 4px;
+}
+.line {
+  border: 1px solid white;
+  margin-top: 40px;
+}
+.line-1 {
+  display: -webkit-box;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid white;
+}
+.card-h {
+  margin-top: 26px;
+}
+.card-img {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+.card-temp {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+/* line1 */
+.c1 {
+  width: 50%;
+  background-color: #3399cc;
+}
+.c2 {
+  width: 25%;
+  background-color: #33cccc;
+}
+.c3 {
+  width: 25%;
+  background-color: #996699;
+}
+/* line2 */
+.c4 {
+  width: 25%;
+  background-color: #c24747;
+}
+.c5 {
+  width: 25%;
+  background-color: #e2674a;
+}
+.c6 {
+  width: 25%;
+  background-color: #ffcc66;
+}
+.c7 {
+  width: 25%;
+  background-color: #99cc99;
+}
+/* line3 */
+.c8 {
+  width: 25%;
+  background-color: #669999;
+}
+.c9 {
+  width: 50%;
+  background-color: #cc6699;
+}
+.c10 {
+  width: 25%;
+  background-color: #339966;
+}
+/* line4 */
+.c11 {
+  width: 100%;
+  background-color: #666699;
+}
+.footer {
+  margin-top: 36px;
+  margin-bottom: 120px;
+}
+.footer-text {
+  font-size: 16px;
+}
+/* hover */
+.c1:hover ~ .c2 {
+  opacity: 0.5;
+}
+.c1:hover ~ .c3 {
+  opacity: 0.5;
+}
+.c1:hover ~ .c4 {
+  opacity: 0.5;
+}
+.c1:hover ~ .c5 {
+  opacity: 0.5;
+}
