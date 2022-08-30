@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wraper {
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+}
+/* *header */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+.header-nav {
+  width: 30%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+}
+.b2 {
+  margin-left: 32px;
+}
+/* button */
+.bot {
+  border: 1px solid var(--c-bly);
+  padding: 12px 22px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+/* sektion: the design */
+.section-design {
+  margin-top: 70px;
+}
+.design {
+  display: flex;
+  flex-wrap: wrap;
+}
+.design-text {
+  width: 46%;
+}
+.design-h1 {
+  margin-top: 96px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+}
+.design-p {
+  margin-top: 30px;
+  color: var(--c-brown);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.design-bot {
+  margin-top: 20px;
+}
+.design-img {
+  width: 644px;
+}
+.tools {
+  text-align: center;
+  margin-top: 100px;
+}
+.tools-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+.tools-bg {
+  background-image: url(../img/tools-bg.png);
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.tools-card {
+  width: 25%;
+}
+.card-img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+.card-h {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+.card-text {
+  color: var(--c-brown);
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.tools-bot {
+  text-align: center;
+  margin-top: 70px;
+}
+/* section skils */
+.skils-pro {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skils-disc {
+  width: 50%;
+  color: var(--c-brown);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.disc {
+  margin-top: 20px;
+}
+.disc-h {
+  color: var(--c-black);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+.disc-p {
+  margin-top: 20px;
+}
+.disc-h4 {
+  margin-top: 30px;
+  color: var(--c-black);
+  font-weight: 700;
+}
+.skils-markers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.skils-img-markers {
+  width: 50%;
+}
+.skils-disc-mark {
+  width: 476px;
+  margin-left: 124px;
+}
+
+.disc-ul li {
+  margin-top: 40px;
+  color: var(--c-brown);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  list-style-image: url(../img/list-stile.png);
+}
+/* footer */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 170px;
+  margin-bottom: 70px;
+}
+.footer-h {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+.footer-list-links {
+  margin-top: 30px;
+}
+.footer-list-links li {
+  margin-top: 15px;
+}
+.footer-list-links a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--c-brown);
+}
+.footer-input {
+  width: 25%;
+}
+.footer-input-h {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+.footer-in {
+  margin-top: 40px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  color: #bcd0e5;
+  display: block;
+  width: 100%;
+  padding: 10px 4px;
+  border: 3px dotted #BCD0E5;
+}
+.footer-bot {
+  margin-top: 34px;
+}

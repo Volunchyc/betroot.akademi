@@ -16,3 +16,7 @@
   width: 64px;
   margin-left: 20px;
 }
+.original-bo:hover {
+  transform: rotate(0.5turn);
+  transition: all 0.6s cubic-bezier(0.32, 0.69, 0.56, 0.1) 0.35s;
+}
