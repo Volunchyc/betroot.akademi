@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--c-darc_bly);
+}
+.chamomile {
+  width: 45em;
+  height: 45em;
+  margin: 0 auto;
+  margin-top: 16px;
+  position: relative;
+  transition: 7s cubic-bezier(0.43, 0, 0.49, 1);
+}
+/* center */
+.center {
+  height: 16em;
+  width: 16em;
+  position: absolute;
+  background-color: var(--c-ylov);
+  border-radius: 50%;
+  top: calc(50% - 8em);
+  left: calc(50% - 8em);
+  z-index: 8;
+}
+/* line */
+.line {
+  width: 25em;
+  border: 6px solid var(--c-gray);
+  z-index: 4;
+  position: absolute;
+}
+.g1 {
+  top: calc(50% - 3px);
+  left: calc(50% - 12.5em);
+}
+.g2 {
+  height: 25em;
+  width: 0;
+  top: calc(50% - 12.5em);
+  left: calc(50% - 3px);
+}
+.g3 {
+  transform: skew(37deg, 138deg);
+  top: calc(50% - 3px);
+  left: calc(50% - 12.5em);
+  width: 23em;
+}
+.g4 {
+  transform: skew(147deg, 227deg);
+  top: calc(50% - 3px);
+  left: calc(50% - 12.5em);
+  width: 23em;
+}
+/* leaf */
+.leaf_x {
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  background-color: var(--c-red);
+  position: absolute;
+  z-index: 6;
+  transition: 3s;
+}
+.l1 {
+  top: 50px;
+  left: 296px;
+}
+.l5 {
+  top: 532px;
+  left: 296px;
+}
+.leaf_y {
+  width: 9em;
+  height: 9em;
+  border-radius: 50%;
+  background-color: var(--c-red);
+  position: absolute;
+  z-index: 6;
+  transition: 2s;
+}
+.l3 {
+  top: 286px;
+  left: 525px;
+}
+.l7 {
+  top: 286px;
+  left: 32px;
+}
+.leaf {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  background-color: var(--c-red);
+  position: absolute;
+  z-index: 6;
+  transition: 1s;
+}
+.l2 {
+  top: 68px;
+  left: 498px;
+}
+.l4 {
+  top: 498px;
+  left: 458px;
+}
+.l6 {
+  top: 464px;
+  left: 48px;
+}
+.l8 {
+  top: 58px;
+  left: 54px;
+}
+/* hower */
+.center:hover + div.chamomile {
+  transform: rotate(4turn);
+}
+.l1:hover {
+  top: 105px;
+}
+.l5:hover {
+  top: 488px;
+}
+.l3:hover {
+  left: 488px;
+}
+.l7:hover {
+  left: 88px;
+}
+.l2:hover {
+  top: 130px;
+  left: 424px;
+}
+.l4:hover {
+  top: 440px;
+  left: 414px;
+}
+.l6:hover {
+  top: 414px;
+  left: 123px;
+}
+.l8:hover {
+  top: 134px;
+  left: 134px;
+}
