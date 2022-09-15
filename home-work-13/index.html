@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <!-- stile -->
+    <link rel="stylesheet" href="./stile.css" />
+    <link rel="stylesheet" href="../boton/boton.css">
+  </head>
+  <body>
+    <div class="app">
+      <!-- *left bloc -->
+      <div class="left">
+        <form action="#" method="get" class="left__form">
+          <h1 class="title">Create an Account</h1>
+          <div class="name">
+            <!-- first -->
+            <label class="first">
+              <div class="first__text">First Name</div>
+              <input type="text" name="First-Name" class="input" />
+              <div class="eror">Error</div>
+            </label>
+            <!-- last -->
+            <label class="last">
+              <div class="last__text">Last Name</div>
+              <input type="text" name="Last-Name" class="input" />
+              <div class="eror ting">Error</div>
+            </label>
+          </div>
+          <label class="email">
+            <div class="email__text">E-mail</div>
+            <input type="email" name="Email" class="email input" />
+          </label>
+          <div class="signature">
+            We'll never share your email with anyone else.
+          </div>
+          <div class="radio_input">
+            <label>
+              <input type="radio" name="male" class="male" value="Male" />Male
+            </label>
+            <label class="fem">
+              <input
+                type="radio"
+                name="male"
+                class="male"
+                value="Female"
+              />Female
+            </label>
+          </div>
+          <div class="place">
+            <label class="place__country">
+              <div class="country__text">Country</div>
+              <input type="text" name="Country" class="country input" />
+              <div class="eror">Error</div>
+            </label>
+            <label class="place__city">
+              <div class="city__text">City</div>
+              <input type="text" name="City" class="city input" />
+              <div class="eror">Error</div>
+            </label>
+          </div>
+          <div class="button">
+            <button type="submit" class="submit">Sign Up</button>
+          </div>
+          <div class="rights">
+            <span class="signature"
+              >By clicking the 'Sign Up' button, you confirm that you accept our
+              .</span
+            ><br />
+            <a href="#" class="linc">Terms of Use</a>
+            <span class="signature">and</span>
+            <a href="#" class="linc">Privacy Policy</a>
+          </div>
+        </form>
+        <footer class="footer">
+          <span class="footer__text">Have an account?</span>
+          <a href="#" class="linc">Log In</a>
+        </footer>
+      </div>
+      <div class="right">
+        <form action="#" method="get" class="right__form">
+          <h1 class="title">Profile</h1>
+          <div class="foto">
+            <div class="foto__bloc">
+              <img src="./img/foto-2.jpg" alt="foto" class="foto__img" />
+            </div>
+            <label for="" class="foto__file">
+              <div class="castom-input">
+                <div class="castom__file">
+                  <img
+                    src="./img/Photo Camera.svg"
+                    alt="camera"
+                    class="foto-camera"
+                  />
+                  <input type="file" name="file" class="file" />
+                </div>
+                <div class="signature sig-right">Up to 1 MB (300x300 px)</div>
+              </div>
+              <div class="trash">
+                <button type="reset" class="submit">
+                  <img src="./img/Trash.svg" alt="reset" />
+                </button>
+              </div>
+            </label>
+          </div>
+
+          <div class="rigt__inputs">
+            <div class="line">
+              <label for="" class="right__name">
+                <div class="name">Name</div>
+                <input type="text" name="name" class="input" />
+                <div class="eror">Error</div>
+              </label>
+              <label for="" class="right__name">
+                <div class="name">E-mail</div>
+                <input type="email" name="email" class="input" />
+                <div class="eror">Error</div>
+              </label>
+            </div>
+            <div class="line">
+              <label for="" class="right__name">
+                <div class="name">Country</div>
+                <input type="text" name="country" class="input" />
+                <div class="eror">Error</div>
+              </label>
+              <label for="" class="right__name">
+                <div class="name">City</div>
+                <input type="text" name="city" class="input" />
+                <div class="eror">Error</div>
+              </label>
+            </div>
+            <div class="line">
+              <label for="" class="right__name">
+                <div class="name">Zip Code</div>
+                <input type="number" name="Zip Code" class="input" />
+                <div class="eror">Error</div>
+              </label>
+              <label for="" class="right__name">
+                <div class="name">Phone Number</div>
+                <input type="tel" name="Phone Number" class="input" />
+                <div class="eror">Error</div>
+              </label>
+            </div>
+          </div>
+          <div class="button">
+            <button type="submit" class="submit right-botton">Update</button>
+          </div>
+        </form>
+        <div class="original-bo">
+          <a href="#" class="bo-slak"
+            ><img class="bo-inc" src="../img/slack-new.png" alt="slack"
+          /></a>
+          <a href="../index.html" class="bo-home"
+            ><img class="bo-inc" src="../img/hom.jpg" alt="home"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
