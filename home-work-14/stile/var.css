@@ -1,0 +1,42 @@
+:root{
+  --c-white:#fff;
+  --c-blec:#000;
+  --c-gray:#E5E5E5;
+  --c-darc:#565656;
+}
+/* global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 166%;
+  color: var(--c-blec);
+}
+a{
+  color: var(--c-blec);
+  text-decoration: none;
+}
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p{
+  color: var(--c-darc);
+}
+span{
+  color: var(--c-darc);
+}

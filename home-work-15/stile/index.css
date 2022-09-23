@@ -1,0 +1,134 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap");
+/* main */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+/* catom */
+.app {
+  max-width: 75em;
+  margin: 0 auto;
+  background-color: white;
+}
+.section {
+  padding: 1em;
+  margin: 0 auto;
+}
+.title {
+  font-family: "Delius Unicase";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 7.5em;
+}
+.photo {
+  border-radius: 20px;
+  opacity: 0.7;
+  transition: 1s;
+}
+.photo:hover{
+  opacity: 1;
+}
+/* bloc-1 */
+.photo-bloc {
+  margin-top: 5em;
+  display: grid;
+  grid-gap: 1.8em;
+}
+.architectural__photo {
+  grid-template-areas:
+    "a b b"
+    "c c d"
+    "e f f";
+}
+.arc-1 {
+  grid-area: a;
+}
+.arc-2 {
+  grid-area: b;
+}
+.arc-3 {
+  grid-area: c;
+}
+.arc-4 {
+  grid-area: d;
+}
+.arc-5 {
+  grid-area: e;
+}
+.arc-6 {
+  grid-area: f;
+}
+/* bloc-2 */
+.still__photo{
+  grid-template-areas: 
+  "a b b"
+  "c c d"
+  "c c d"
+  "e e f";
+}
+.sti-1 {
+  grid-area: a;
+}
+.sti-2 {
+  grid-area: b;
+}
+.sti-3 {
+  grid-area: c;
+}
+.sti-4 {
+  grid-area: d;
+}
+.sti-5 {
+  grid-area: e;
+}
+.sti-6 {
+  grid-area: f;
+}
+/* bloc-3 */
+.portrait__photo{
+  grid-template-areas: 
+  "a b c"
+  "d b e"
+  "f g e"
+  "f h h"
+  "i i j";
+}
+.por-1{
+  grid-area: a;
+}
+.por-2{
+  grid-area: b;
+}
+.por-3{
+  grid-area: c;
+}
+.por-4{
+  grid-area: d;
+}
+.por-5{
+  grid-area: e;
+}
+.por-6{
+  grid-area: f;
+}
+.por-7{
+  grid-area: g;
+}
+.por-8{
+  grid-area: h;
+}
+.por-9{
+  grid-area: i;
+}
+.por-10{
+  grid-area: j;
+}
