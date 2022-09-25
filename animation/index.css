@@ -1,0 +1,96 @@
+.fool{
+  margin: 20px;
+  height: 93vh;
+}
+.solger img{
+  width: 32em;
+  height: 32em;
+  animation: rov 18s ease-out 0.3s 1;
+}
+
+.shars{
+  position: relative;
+}
+.bloc{
+  width: 8em;
+  height: 5em;
+  position: absolute;
+  z-index: -1;
+}
+.top{
+  background-color: yellow;
+  box-shadow: 0 0 24px yellow;
+}
+.botton{
+  background-color: blue;
+  box-shadow: 0 0 24px blue;
+}
+
+
+.shar-1{
+  left: 16em;
+  top: 10em;
+  animation: flag 15s linear 0.3s 1;
+}
+.shar-2{
+  left: 8em;
+  top: 10em;
+  animation: flag 15s linear 0.3s 1;
+}
+.shar-3{
+  left: 8em;
+  top: 5em;
+  animation: flag 15s linear 0.3s 1;
+}
+.shar-4{
+  left: 16em;
+  top: 5em;
+  animation: flag 15s linear 0.3s 1;
+}
+@keyframes flag {
+  0%{
+    border-radius: 50%;
+    transform: translate(-30em);
+  }
+  25%{
+    transform: translate(60em 60em);
+  }
+  50%{
+    border-radius: 50%;
+    transform: rotate(720deg) scale(-2);
+  }
+  75%{
+    border-radius: 75%;
+    transform: scale(2) rotate(-720deg);
+  }
+  100%{
+    transform: translate(0 0);
+  }
+
+}
+@keyframes rov {
+  0%{
+    opacity: 0;
+    transform: scale(-2);
+  }
+  20%{
+    opacity: 0;
+    transform: scale(-1);
+  }
+  40%{
+    opacity: 0;
+    transform: scale(0);
+  }
+  60%{
+    opacity: 0;
+    transform: scale(0);
+  }
+  80%{
+    opacity: 0.5;
+    transform: scale(0);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
